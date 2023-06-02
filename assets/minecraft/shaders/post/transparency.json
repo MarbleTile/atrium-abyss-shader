@@ -7,9 +7,7 @@
         "clouds",
         "weather",
         "final",
-        "downsampled",
-        "grey",
-        "dithered"
+        "somad"
     ],
     "passes": [
         {
@@ -64,18 +62,8 @@
             ]
         },
         {
-            "name": "downsample",
+            "name": "soma",
             "intarget": "final",
-            "outtarget": "downsampled"
-        },
-        {
-            "name": "greyscale",
-            "intarget": "downsampled",
-            "outtarget": "grey"
-        },
-        {
-            "name": "dither",
-            "intarget": "grey",
             "outtarget": "minecraft:main"
         }
     ]
