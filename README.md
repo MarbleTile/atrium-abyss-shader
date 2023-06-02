@@ -9,4 +9,5 @@ activate by setting graphics to fabulous. for play in the atrium server.
 * draw arbitrary images (todo)  (maybe)
 
 **customize**
+
 chromatic aberration: mess around with off_* values
