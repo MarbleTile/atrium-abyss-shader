@@ -7,7 +7,7 @@
         "clouds",
         "weather",
         "final",
-        "somad"
+        "chromad"
     ],
     "passes": [
         {
@@ -62,7 +62,7 @@
             ]
         },
         {
-            "name": "soma",
+            "name": "chroma",
             "intarget": "final",
             "outtarget": "minecraft:main"
         }
